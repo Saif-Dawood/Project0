@@ -16,7 +16,6 @@ a {
   margin-right: 2px;
   margin-left: 2px;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -68,11 +67,11 @@ form {
   max-width: 700px;
   margin: 20px;
 }
-
 .wow2:hover {
   background: #484a4d;
   border: none;
   box-shadow: inset;
+  padding: 1px;
 }
 
 .search_text {
@@ -102,7 +101,6 @@ button {
   max-width: 270px;
   margin: 5px;
 }
-
 button:hover {
   border: 1px solid #72767a;
   margin: 0 auto;

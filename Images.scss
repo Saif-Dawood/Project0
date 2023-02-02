@@ -15,10 +15,9 @@ a {
     text-decoration: none;
     margin-right: 2px;
     margin-left: 2px;
-}
-
-a:hover {
-    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .logo {
@@ -69,12 +68,12 @@ form {
     max-width: 700px;
     // min-width: 350px;
     margin: 20px;
-}
-
-.wow2:hover {
-    background: #484a4d;
-    border: none;
-    box-shadow: inset;
+    &:hover {
+        background: #484a4d;
+        border: none;
+        box-shadow: inset;
+        padding: 1px;
+    }
 }
 
 .search_text {
@@ -108,11 +107,10 @@ button {
     width: auto;
     max-width: 270px;
     margin: 5px;
-}
-
-button:hover {
-    border: 1px solid #72767a;
-    margin: 0 auto;
-    margin: 4px;
-    // box-shadow: none;
+    &:hover {
+        border: 1px solid #72767a;
+        margin: 0 auto;
+        margin: 4px;
+        // box-shadow: none;
+    }
 }

@@ -17,9 +17,13 @@
                 <div class="wow2">
                     <input class="search_text" autofocus type="text" name="q" placeholder="Search">
                 </div>
+                
+                <input type="text" name="btnI" hidden disabled value="I'm+Feeling+Lucky">
             </div>
             <button type="submit">Google Search</button>
-            <button href="Advanced.html">Advanced Search</button>
+            <button type="submit"
+                onclick="document.getElementsByName('btnI')[0].removeAttribute('disabled');">
+                I'm Feeling lucky</button>
         </form>
     </body>
 </html>
