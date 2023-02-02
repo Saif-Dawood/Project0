@@ -8,26 +8,39 @@
     </head>
     <body>
         <header>
-            <img class="google_logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="Google Image">
+            <img class="google_logo" 
+                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
+                alt="Google Image">
             <a href="index.html">Google Search</a>
         </header>
+
         <form action="https://www.google.com/search">
             <h3>Find pages with...</h3>
             <div class="fpw">
                 <label>all these words:</label>
-                <input class="textinput" type="text">
+                <input class="textinput" type="text" name="as_q">
             </div>
             <div class="fpw">
                 <label>this exact word or phrase:</label>
-                <input class="textinput" type="text">
+                <input class="textinput" type="text" name="as_epq">
             </div>
             <div class="fpw">
                 <label>any of these words:</label>
-                <input class="textinput" type="text">
+                <input class="textinput" type="text" name="as_oq">
             </div>
             <div class="fpw">
                 <Label>none of these words:</Label>
-                <input class="textinput" type="text">
+                <input class="textinput" type="text" name="as_eq">
+            </div>
+            
+            <div class="fpw">
+                <div class="empty_div"></div>
+
+                <div class="adv_btn">
+
+                    <button
+                            type="submit">Advanced Search</button>
+                </div>
             </div>
         </form>
     </body>

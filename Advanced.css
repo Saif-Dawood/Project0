@@ -1,5 +1,6 @@
 body {
   color: white;
+  font-family: arial, sans-serif;
   background-color: rgb(44, 43, 43);
   text-align: center;
   padding: 20px;
@@ -26,34 +27,31 @@ form {
   text-align: left;
   display: flex;
   flex-direction: column;
-}
-
-.search_text {
-  background-color: transparent;
-  border: none;
-  padding: 10px;
-  color: #e8eaed;
-  word-wrap: break-word;
-  outline: none;
-  display: flex;
+  width: 60%;
 }
 
 button {
-  background: #484a4d;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 0 auto;
-  width: 300px;
-  width: auto;
-  max-width: 270px;
-  margin: 5px;
+  line-height: 100%;
+  background: #8ab4f8;
+  color: black;
+  font-weight: bold;
+  border: 1px solid #8ab4f8;
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-transform: none;
+  box-shadow: none;
+  padding: 0 12px;
+  margin: 10px 0;
+  min-width: 120px;
+  height: 30px;
+  font-size: 11px;
+  float: right;
+  outline: 0;
 }
 button:hover {
-  border: 1px solid #72767a;
-  margin: 0 auto;
-  margin: 4px;
+  background: #aecbfa;
+  border: 1px solid #2f5bb7;
+  border-image: initial;
 }
 
 .google_logo {
@@ -62,8 +60,8 @@ button:hover {
 }
 
 .fpw {
+  color: #8ab4f8;
   display: grid;
-  width: 60%;
   grid-template-columns: 200px auto;
   column-gap: 20px;
   row-gap: 10px;
@@ -72,13 +70,24 @@ button:hover {
 
 .textinput {
   background-color: rgb(44, 43, 43);
-  color: white;
+  color: #8ab4f8;
   border: 1px solid #484a4d;
   border-radius: 1px;
 }
 .textinput:focus-visible {
-  border: 1px solid rgb(212, 203, 203);
+  border: 1px solid #8ab4f8;
   outline: none;
+}
+
+.adv_btn {
+  text-align: right;
+  float: left;
+  grid-template-columns: auto 167px;
+  column-gap: 20px;
+  row-gap: 10px;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=Advanced.css.map */

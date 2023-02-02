@@ -15,6 +15,7 @@ a {
     text-decoration: none;
     margin-right: 2px;
     margin-left: 2px;
+
     &:hover {
         text-decoration: underline;
     }
@@ -38,6 +39,7 @@ form {
     max-width: 700px;
     // min-width: 350px;
     margin: 20px;
+    
     &:hover {
         background: #484a4d;
         border: none;
